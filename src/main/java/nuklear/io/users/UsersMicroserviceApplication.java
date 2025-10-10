@@ -20,7 +20,7 @@ public class UsersMicroserviceApplication {
 		SpringApplication.run(UsersMicroserviceApplication.class, args);
 	}
 
-	@PostConstruct
+/*	@PostConstruct
 	void init_users() {
 		//ajouter les rôles
 		userService.addRole(new Role(null,"ADMIN"));
@@ -34,11 +34,6 @@ public class UsersMicroserviceApplication {
 		userService.addRoleToUser("admin", "USER");
 		userService.addRoleToUser("fitiavana", "USER");
 		userService.addRoleToUser("emmanuelon", "USER");
-	}
-
-	@Bean
-	BCryptPasswordEncoder getBCE() {
-		return new BCryptPasswordEncoder();
-	}
+	}*/
 
 }
