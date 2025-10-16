@@ -18,6 +18,6 @@ public class UserRestController {
 
     @GetMapping("all")
     public List<User> getAllUsers() {
-        return userService.getAllUsers();
+        return userService.findAllUsers();
     }
 }
